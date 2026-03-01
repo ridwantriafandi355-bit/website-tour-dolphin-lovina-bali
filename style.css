@@ -288,6 +288,12 @@ img {
   background: url('background-dolphin-lovina-tour-bali (2).jpeg') center center / cover no-repeat;
 }
 
+@media (max-width: 768px) {
+  .hero-image-bg {
+    background-position: 55% center;
+  }
+}
+
 .hero-content {
   position: relative;
   z-index: 2;
@@ -869,6 +875,9 @@ img {
   position: relative;
   animation: float 6s ease-in-out infinite;
   transition: all 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .testi-card:nth-child(1) {
@@ -940,6 +949,7 @@ img {
   display: flex;
   align-items: center;
   gap: 12px;
+  margin-top: auto;
 }
 
 .testi-avatar {
