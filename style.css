@@ -618,31 +618,8 @@ img {
 }
 
 .bento-item:nth-child(17) {
+  grid-column: span 2;
   animation-delay: 1.4s;
-}
-
-.bento-item:nth-child(18) {
-  animation-delay: 0.5s;
-}
-
-.bento-item:nth-child(19) {
-  grid-column: span 2;
-  animation-delay: 1.1s;
-}
-
-.bento-item:nth-child(20) {
-  grid-column: span 2;
-  animation-delay: 0.2s;
-}
-
-.bento-item:nth-child(21) {
-  grid-column: span 2;
-  animation-delay: 0.7s;
-}
-
-.bento-item:nth-child(22) {
-  grid-column: span 2;
-  animation-delay: 1.3s;
 }
 
 /* ===== FLOATING / ANTIGRAVITY ANIMATION ===== */
@@ -1399,8 +1376,7 @@ img {
   .bento-item:nth-child(10),
   .bento-item:nth-child(13),
   .bento-item:nth-child(16),
-  .bento-item:nth-child(19),
-  .bento-item:nth-child(20) {
+  .bento-item:nth-child(17) {
     grid-column: span 2 !important;
   }
 
