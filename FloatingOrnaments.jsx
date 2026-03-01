@@ -22,14 +22,6 @@ const FloatingOrnaments = () => {
         Or you can use the built-in 'animate-bounce' if preferred.
       */}
 
-      {/* Ornament 1 */}
-      <img
-        src="/ornamen bali png/bali.png"
-        alt="Ornamen Bali 1"
-        className="w-32 h-auto opacity-85 animate-[float_6s_ease-in-out_infinite]"
-      // Using arbitrary value animate-[...] as a fallback if tailwind config isn't updated
-      />
-
       {/* Ornament 2 */}
       <img
         src="/ornamen bali png/daun kelapa emas.png"
