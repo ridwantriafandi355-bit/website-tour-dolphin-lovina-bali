@@ -290,7 +290,7 @@ img {
 
 @media (max-width: 768px) {
   .hero-image-bg {
-    background-position: 55% center;
+    background: url('Buat_gambar_ini_jangan_di_pinngir_pantai_tapai_aga_delpmaspu.png') center center / cover no-repeat;
   }
 }
 
